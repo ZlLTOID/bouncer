@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace App\EventSubscriber;
+namespace Bouncer\EventSubscriber;
 
-use App\Interfaces\Bouncer;
+use Bouncer\Interfaces\Bouncer;
 use Symfony\Component\EventDispatcher\EventSubscriberInterface;
 use Symfony\Component\HttpKernel\Event\ControllerEvent;
 use Symfony\Component\HttpKernel\Exception\AccessDeniedHttpException;
