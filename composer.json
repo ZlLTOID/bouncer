@@ -1,0 +1,21 @@
+{
+    "name": "iandolezal/bouncer",
+    "description": "Simple api authentication for Symfony apps",
+    "require": {
+        "symfony/event-dispatcher": "4.4",
+        "symfony/http-kernel": "4.4"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Iandolezal\\Bouncer\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Jan Doležal",
+            "email": "dolezal6@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable"
+}
