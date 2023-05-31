@@ -1,5 +1,5 @@
 # Bouncer
-Simple authentication for symfony app endpoints.
+Simple authorization for symfony app endpoints.
 
 To make this running you need to do only two steps.
 - Add `X_AUTH_TOKEN` global variable to your .env
